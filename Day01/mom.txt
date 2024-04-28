@@ -1,0 +1,16 @@
+Date 7th april , 2024
+
+
+Level 1 - JS the Language
+
+new tech/lang 
+1-output
+2-input, variables , ram memory mgmt
+3-conditionals - if else else if switch case ternary
+4- repeat - loops
+5- functions 
+
+
+// output - console - screen
+
+

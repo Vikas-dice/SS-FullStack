@@ -1,0 +1,29 @@
+
+Date 20th april, 2024
+
+Last Class - functions 
+continue
+
+
+functions - DRY =Do not repeat yourself 
+first class members - variable store 
+
+functions es5 es6
+
+es5 
+1-function statement
+2-function expression
+3-anonymous
+4-return 
+
+es6
+fat arrow function
+fat arrow with one param
+fat arrow function multi param
+fat arrow with implicit return
+
+
+callstack - ram - heap and stack
+
+functions - stack +local variables 
+

@@ -1,0 +1,19 @@
+Date - 27th april , 2024
+
+Last Class - Array object
+
+this keyword - js confusing and important concept 
+
+this - object bind 
+
+this - diff diff situations 
+
+function constructor 
+
+new keyword
+
+
+array questions 
+
+
+

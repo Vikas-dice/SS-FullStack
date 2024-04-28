@@ -1,0 +1,38 @@
+Date 13th april, 2024
+
+Last Class - variables, ram memory mgmt, conditionals (if else else if switch)
+
+Loops 
+
+loops - initiate , condition/statement, update 
+
+for 
+while
+do while
+
+for(;;){
+
+}
+
+
+dry run
+
+l1 row=1
+row<=5 1<=5 true
+l2 st=1
+st<=5 1<=5-1+1 1<=5 true
+l3 *****
+
+st++ st=2
+st<=5-row+1 2<=5-1+1 2<=5 true
+st++ st=3
+st<=5-row+1 3<=5-1+1 3<=5 true
+st++ st=4 
+
+
+st=6 st<=5-row+! 6<=5-1+1 6<5 false
+l5 
+
+row++ row=2
+row<=5 2<=5 truel2 st=1 st<=5-2+1 
+1<=4 true

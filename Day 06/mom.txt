@@ -1,0 +1,8 @@
+Date 28th april , 2024
+
+Last Class - Function constructor , this keyword , new keyword 
+
+
+String - sequence of character 
+charcter= a b c .;
+
