@@ -1,0 +1,16 @@
+
+
+Date 11th may , 2024
+
+function cons
+class cons 
+class cons oops 
+method overloading 
+method overriding 
+public pvt protected 
+async js intro -
+callback , promises 
+
+
+
+
