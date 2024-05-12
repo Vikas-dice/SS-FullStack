@@ -1,0 +1,10 @@
+Date 12th may , 2024
+
+
+Async Js
+
+
+1 callbacks
+2 callback hell
+3 inversion of control
+4 promises 
