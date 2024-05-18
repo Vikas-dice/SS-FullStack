@@ -1,0 +1,5 @@
+Date 18th may , 2024
+
+Last Class - callbacks callback hell ioc promises resolve reject then catch
+
+ 'https://randomuser.me/api/',
