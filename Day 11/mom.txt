@@ -1,0 +1,19 @@
+Date 26th may 2024
+
+Last Class - Async js - callbacks promises async await fetch api
+
+
+
+
+Dom = Document object model
+
+selector == html selec , queryselector
+
+
+html seelctor 
+
+geteleiid
+getclasanme
+gettag
+
+

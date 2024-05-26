@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .red{
+            color: red;
+            background-color: white;
+        }
+
+        .green{
+            color: green;
+            background-color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <button id="btn" onclick="changecolor()" ondblclick="chnagetogreen()" onmouseover="reset()">click me </button>
+
+    <script>
+
+
+let btn =document.getElementById("btn")
+console.log(btn);
+
+
+function changecolor(){
+    btn.classList.add("red")
+}
+
+function chnagetogreen(){
+    btn.classList.add("green")
+}
+
+function reset(){
+    btn.classList.remove("green")
+    btn.classList.remove("red")
+}
+    </script>
+    
+</body>
+</html>

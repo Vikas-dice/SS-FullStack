@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .red{
+            color: red;
+            background-color: red;
+        }
+        .green{
+            color: green;
+            background-color: green;
+        }
+        .yellow{
+            color: yellow;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="red">RED</div>
+    <div id="green">GREEN</div>
+    <div id="yellow">YELLOW</div>
+
+    <script>
+        let redlight=document.getElementById("red")
+        let greenlight =document.getElementById("green")
+        let yellowlight=document.getElementById("yellow")
+
+   setInterval(() => {
+    console.log("i am running ");
+    setTimeout(() => {
+            redlight.classList.add("red")
+            
+        }, 1000);
+        setTimeout(() => {
+            greenlight.classList.add("green")
+            redlight.classList.remove("red")
+
+            
+        }, 2000);
+        setTimeout(() => {
+
+            // yellowlight.classList.add("yellow")
+            redlight.classList.remove("red")
+            greenlight.classList.remove("green")
+            yellowlight.classList.add("yellow")
+            setTimeout(() => {
+                yellowlight.classList.remove("yellow")
+                
+            }, 500);
+           
+            
+        }, 3000);
+    
+   }, 5000);
+   
+  
+       
+
+
+
+        
+
+
+
+
+    </script>
+    
+</body>
+</html>
