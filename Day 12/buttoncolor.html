@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .red{
+            background-color: red;
+            color: white;
+            padding: 5px;
+        }
+        .green{
+            background-color: green;
+            color: white;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <button onclick="changecolor()" ondblclick="changetogreen()">click me to make me red </button>
+
+    <script>
+        let btn=document.querySelector("button")
+
+
+        function changecolor(){
+            btn.classList.add("red")
+        
+            
+        }
+
+        function changetogreen(){
+            btn.classList.add("green")
+        }
+    </script>
+    
+</body>
+</html>

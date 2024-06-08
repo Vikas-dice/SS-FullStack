@@ -1,0 +1,14 @@
+
+DOM - DOCUMENT OBJECT MODEL
+
+HTML - JS - CODE - BROSWER - DOCUMENT 
+
+DOM TREE- DS
+
+
+selectors
+1- html selectors
+2- queryselector
+
+
+

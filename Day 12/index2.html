@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="heading1">hello world</h1>
+    <h1>vikas chaudhary</h1>
+    <h1 class="piyush">piyush</h1>
+    <h1>angad </h1>
+    <button>click me</button>
+    <h3>hi</h3>
+    <h3>bye</h3>
+    <h3>hello</h3>
+    <p id="para">Lorem ipsum dolor sit amet.</p>
+    <p class="paraclass">Lorem ipsum dolor sit amet consectetur.</p>
+
+
+    <script>
+        let heading1=document.querySelector('#heading1')
+        console.log(heading1);
+
+        let heading2=document.querySelector(".piyush")
+        console.log(heading2);
+
+        let btn=document.querySelector("button")
+        console.log(btn);
+
+        let headings3=document.querySelectorAll('h3')
+        console.log(headings3);
+
+        for(const elt of headings3){
+            console.log(elt);
+        }
+
+        let para1=document.querySelectorAll('#para')
+        console.log(para1[0]);
+
+        let para2=document.querySelectorAll('.paraclass')
+        console.log(para2[0]);
+    </script>
+    
+</body>
+</html>

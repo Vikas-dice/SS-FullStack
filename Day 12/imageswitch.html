@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div style="border: 5px solid black; height: 400px; width: 400px;">
+        <img src="https://images.unsplash.com/photo-1717457779705-f6bb71b1c7fd?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" height="200px" width="200px" id="img1">
+
+        <img src="https://plus.unsplash.com/premium_photo-1711311020952-dce422df1a3c?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" height="200px" width="200px" id="img2">
+
+        <button id="btn" onclick="swapimage()" style="position: absolute; top: 200px; ">click me to swap</button>
+
+<script>
+
+    let btn =document.getElementById("btn")
+    let img1=document.getElementById("img1")
+    let img2= document.getElementById("img2")
+
+    console.log(btn);
+
+    function swapimage(){
+        let temp=img1.src;
+        img1.src=img2.src;
+        img2.src=temp;
+   
+    }
+
+
+</script>
+
+    </div>
+    
+</body>
+</html>

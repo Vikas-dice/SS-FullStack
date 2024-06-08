@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    hello world 
+    <!-- <button onclick="console.log('i am clciked ')">click me </button>
+
+    selectors -- 1- html sele- getelbyid , getlclassname,gettagname, gettgamames
+
+
+     
+    
+    -->
+
+    <button id="btn">click me</button>
+    <button class="mybtn"></button>
+    <button class="mybtn"></button>
+    <button class="mybtn"></button>
+
+    <h1>hello world</h1>
+    <h1>hello world</h1>
+    <h1>hello world</h1>
+    <h1>hello world</h1>
+    <h1>hello world</h1>
+
+
+
+    <script>
+
+        let btn=document.getElementById('btn')
+        console.log(btn);
+
+        let btns=document.getElementsByClassName('mybtn')
+        console.log(btns);
+        // for(let idx =0;idx<btns.length;idx++){
+        //     console.log(btns[idx]);
+        // }
+
+        for(const maal of btns){
+            console.log(maal);
+        }
+        console.log("-------------------------------------------")
+
+        let headings=document.getElementsByTagName('h1')
+        console.log(headings);
+
+        for(const elt of headings){
+            console.log(elt);
+        }
+
+
+
+    </script>
+</body>
+</html>
