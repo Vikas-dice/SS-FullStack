@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h3>counter : 0</h3>
+    <button>start</button>
+    <button id="stop">stop</button>
+
+    <script>
+        let h3=document.querySelector("h3")
+        let start=document.querySelector("button")
+        let stop =document.querySelector("#stop");
+        let count=0;
+        let id;
+
+
+        start.addEventListener("click",function(){
+            id=setInterval(() => {
+                count++;
+                h3.textContent=count;
+
+
+                
+            }, 1000);
+
+
+
+
+        })
+
+        stop.addEventListener("click",function(){
+
+            clearInterval(id)
+
+        })
+    </script>
+    
+</body>
+</html>

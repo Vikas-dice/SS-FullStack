@@ -1,0 +1,12 @@
+
+calculator
+todo app
+download capsule
+timer app
+form validation custom
+cards - api 
+cards - searching -api (randomsuser api end point )
+charcter counter app
+cricket game app
+
+

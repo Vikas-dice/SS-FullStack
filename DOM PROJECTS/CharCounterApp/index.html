@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h3><span id="counter">Counter </span> : 0</h3>
+    <textarea ></textarea>
+
+    <script>
+
+        let h3=document.querySelector("h3");
+        let txtare=document.querySelector("textarea")
+        let counter=document.querySelector("#counter")
+
+        console.log(h3,txtare);
+
+        txtare.addEventListener("input",function(){
+            // console.log(txtare.value.length);
+            h3.innerText=txtare.value.length;
+            // counter.append(txtare.value.length)
+
+         
+        })
+
+    </script>
+    
+</body>
+</html>

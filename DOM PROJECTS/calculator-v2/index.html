@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="main">
+
+        <div id="calculator">
+        
+            <input type="text" id="display">
+            <div class="button-container">
+                <button class="button" onclick="">C</button>
+                <button class="button" >1</button>
+                <button class="button"
+               >2</button>
+                <button class="button" >3</button>
+                <button class="button" >+</button>
+                <button class="button" >4</button>
+                <button class="button" >5</button>
+                <button class="button" >6</button>
+                <button class="button" >-</button>
+                <button class="button" >7</button>
+                <button class="button" >8</button>
+                <button class="button" >9</button>
+                <button class="button" >0</button>
+                <button class="button" >/</button>
+                <button class="button" >*</button>
+                <button class="button" >%</button>
+                <button class="button" id="equal" >=</button>
+                <button class="button">result</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+     
+
+        let btns =document.querySelectorAll(".button")
+        let inp2=document.querySelector("#display")
+
+        for(const elt of btns){
+            elt.addEventListener("click",function(event){
+                let val=event.target.textContent;
+                console.log(val);
+
+
+
+                if(val=="="){
+                   let ans =eval(val);
+                  
+                }
+                inp2.textContent=val;
+                
+            })
+        }
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+    //   let currentdisplay='';
+    //   let inp=document.querySelector("#display")
+    //   inp.value=currentdisplay;
+
+
+
+
+
+    </script>
+  
+    
+</body>
+</html>

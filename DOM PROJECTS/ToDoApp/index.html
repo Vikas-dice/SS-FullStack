@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+ 
+    <input type="text" placeholder="add tasks ">
+    <button>Add</button>
+    <button id="remove">Remove </button>
+    <ul>
+        <li>go to work</li>
+       
+    </ul>
+
+
+
+    <script>
+        let inp=document.querySelector("input");
+        let addbtn=document.querySelector("button");
+        let removebtn =document.querySelector("#remove");
+        let li=document.querySelector("li");
+        let ul=document.querySelector("ul");
+        
+
+        console.log(inp,addbtn,removebtn,li,ul);
+
+        addbtn.addEventListener("click",function(){
+            if(inp.value===''){
+
+            }else{
+                let li=document.createElement("li");
+
+         
+                li.textContent=inp.value;
+                ul.append(li)
+              
+                inp.value=""
+
+              
+              
+
+
+
+            }
+    
+
+            
+        })
+
+        removebtn.addEventListener("click",function(){
+            // li.textContent="";
+            ul.removeChild(li)
+
+        })
+
+
+
+
+
+    </script>
+
+
+    
+</body>
+</html>
