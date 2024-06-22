@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button>instrument1</button>
+    <button>instrument2</button>
+    <button>instrument3</button>
+    
+    <button>instrument4</button>
+    <button>instrument5</button>
+    <button>instrument6</button>
+    <button>instrument7</button>
+
+
+    <script>
+
+        let btns=document.querySelectorAll("button")
+        // console.log(btns.length);
+
+        function makesound(key){
+
+            switch(key){
+                case "instrument1":
+                let music1= new Audio('moyemoyeshort.mp3')
+               music1.play();
+               setTimeout(() => {
+                music1.pause()
+    
+                
+               }, 3000);
+               break;
+
+               case "instrument2":
+               let music2= new Audio('crash.mp3')
+               music2.play();
+               setTimeout(() => {
+                music2.pause()
+    
+                
+               }, 3000);
+               break;
+
+               case "instrument3":
+               let music3= new Audio('kick-bass.mp3')
+               music3.play();
+               setTimeout(() => {
+                music3.pause()
+    
+                
+               }, 3000);
+               break;
+
+
+               case "instrument4":
+               let music4= new Audio('tom-1.mp3')
+               music4.play();
+               setTimeout(() => {
+                music4.pause()
+    
+                
+               }, 3000);
+               break;
+
+               case "instrument5": 
+               let music5= new Audio('tom-2.mp3')
+               music5.play();
+               setTimeout(() => {
+                music5.pause()
+    
+                
+               }, 3000);
+               break;
+
+               case "instrument6": 
+               let music6= new Audio('tom-3.mp3')
+               music6.play();
+               setTimeout(() => {
+                music6.pause()
+    
+                
+               }, 3000);
+               break;
+
+               case "instrument7": 
+               let music7= new Audio('tom-4.mp3')
+               music7.play();
+               setTimeout(() => {
+                music7.pause()
+    
+                
+               }, 3000);
+               break;
+
+               default:
+                let music=new Audio('moyemoye.mp3')
+                music.play()
+
+            }
+        }
+
+
+        for(let i=0;i<btns.length;i++){
+            let key=btns[i].innerHTML;
+            console.log("key----",key);
+            btns[i].addEventListener("click",function(){
+                let key=btns[i].innerHTML;
+                makesound(key)
+            })
+
+            // makesound(key)
+        }
+
+
+        // for(let i=0;i<btns.length;i++){
+        //     btns[i].addEventListener("click",function(){
+        //         makesound();
+
+               
+        //     })
+        // }
+
+
+
+
+    </script>
+    
+</body>
+</html>
