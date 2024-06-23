@@ -1,0 +1,15 @@
+
+
+mouse events 
+keyboard events 
+form - imp 
+
+siblings - nextsibling , nextelemtnsibling , prev sibling , prevelt sibling, children , childnodes , parent ,parent node 
+
+8-10 small projects 
+major projects - 4-5 (music player app, ecommerce , random number gen, meme generator , bill maker , audio wave visualzer )
+
+
+React ---
+
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, minus!
+
+    </p>
+
+    <a href="#">click me </a>
+    <div id="root">
+        <h1>vikas</h1>
+        <h1>chaudhary</h1>
+        <h1>dice</h1>
+    </div>
+
+   
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas porro blanditiis fugit vel, voluptatibus esse nam laudantium tempora eius quia.</p>
+    <button>click me button </button>
+
+    <script>
+
+        let root=document.getElementById("root")
+        console.log(root);
+        console.log(root.nextSibling);
+        console.log(root.nextSibling.nextSibling);
+        console.log(root.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling);
+
+        console.log(root.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling);
+    
+    console.log("--------------------------------");
+
+    console.log(root.previousSibling.previousSibling.previousSibling.previousSibling.previousSibling.previousSibling);
+    console.log(root.previousElementSibling.previousElementSibling.previousElementSibling);
+    console.log("--------------------------------");
+
+
+    console.log(root.parentElement.parentElement.parentElement);
+    console.log("--------------------------------");
+
+    console.log(root.parentNode.parentNode.parentNode.parentNode);
+
+    console.log("--------------------------------");
+
+
+    console.log(root.children.children);
+
+    console.log("--------------------------------");
+
+
+    console.log(root.childNodes.childNodes);
+
+
+    
+
+
+
+    </script>
+    
+</body>
+</html>

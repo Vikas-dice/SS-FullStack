@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .red{
+            background-color: red;
+            color: white;
+            padding: 10px;
+        }
+
+        .green{
+            background-color: green;
+            color: white;
+            padding: 10px;
+        }
+        .yellow{
+            background-color: yellow;
+            color: white;
+            padding: 10px;
+        }
+        .magenta{
+            background-color: magenta;
+            color: white;
+            padding: 10px;
+        }
+
+        </style>
+</head>
+<body>
+
+    <button>click me </button>
+
+    <button id="btn">click me 2 </button>
+
+    <script>
+
+       let btn = document.querySelector('button')
+
+       //1- 
+       btn.onclick=function(){
+        console.log("i am clciked ");
+        btn.classList.add("red")
+       }
+
+       btn.onmouseover=function(){
+        console.log(" mouse over fired");
+
+        btn.classList.add("green")
+       }
+
+       btn.onmouseleave=function(){
+        btn.classList.remove("green")
+       }
+
+       btn.onmousemove=function(){
+        btn.style.color="pink";
+
+        
+       }
+
+       let btn2=document.querySelector("#btn")
+
+       btn2.addEventListener("click",function(){
+        btn2.classList.add("yellow")
+       })
+
+       btn2.addEventListener("dblclick",()=>{
+        btn2.classList.add("magenta")
+       })
+
+       
+
+
+
+
+    </script>
+    
+</body>
+</html>

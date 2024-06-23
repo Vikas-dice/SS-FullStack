@@ -1,0 +1,55 @@
+
+git github version controlling
+
+
+git - software /tool
+node , git 
+
+github - website - remote folder - share , 
+
+
+
+
+
+1- repo - folder
+2- commit - save krna
+3- fork - complete copy
+4- branch - 
+
+
+
+product - 2 company 
+india and usa
+india - 4 team - sales, rd frontend backend 
+frontend- team 1 team 2
+backend - team 1 team 2
+
+
+---
+usa
+
+ usa- front backend testing 
+ cloud 
+ server 
+
+
+
+
+ india - code - zip file - drive ---- us team code copy - code base - changes --- zip file --- india drive ..
+
+
+ version controlling team
+
+ india - 500 loc - version 1
+ usa - 500+50 -550 loc - version 2
+
+
+
+
+
+git config --global user.name "name"
+git config --global user.email "email.com"
+
+
+git config --list
+
